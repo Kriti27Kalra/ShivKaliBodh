@@ -1,279 +1,1014 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
+
 <head>
-  <meta charset="UTF-8">
-  <title>Shivkalibodh | Home</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShivKaliBodh</title>
 
-  <!-- Bootstrap & Fonts -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+    <!-- libraries CSS -->
+    <link rel="stylesheet" href="assets/icon/flaticon_charitics.css">
+    <link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/splide/splide.min.css">
+    <link rel="stylesheet" href="assets/vendor/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/vendor/slim-select/slimselect.css">
+    <link rel="stylesheet" href="assets/vendor/animate-wow/animate.min.css">
+    <link rel="stylesheet" href="assets/vendor/flatpickr/flatpickr.min.css">
+    <!-- Swiper CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+    <!-- custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
-
-<!-- 🌟 Designer Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark custom-navbar sticky-top">
-  <div class="container-fluid px-lg-5">
-<a class="navbar-brand logo-custom me-auto" href="index.html">
-  <span class="logo-shiv">Shiv</span><span class="logo-kali">Kali</span><span class="logo-bodh">Bodh</span>
-  <span class="logo-tagline ms-2">– the power of <span class="text-highlight">divine love</span> –</span>
-</a>
-
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto align-items-center">
-  <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-  <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-  <li class="nav-item"><a class="nav-link" href="kundalini.html">Kundalini</a></li>
-  <li class="nav-item"><a class="nav-link" href="enlightenment.html">Enlightenment</a></li>
-  <li class="nav-item"><a class="nav-link" href="healing.html">Healing</a></li>
-  <li class="nav-item"><a class="nav-link" href="guru.html">Guru</a></li>
-  <li class="nav-item"><a class="nav-link" href="testimonials.html">Testimonials</a></li>
-
-  
-</ul>
-
+    <div class="preloader" id="preloader">
+        <div class="loader"></div>
     </div>
-  </div>
-</nav>
 
-<!-- 🖼️ Hero Carousel Section -->
- <header>
-<section class="py-5 bg-dark text-white text-center">
-  <div id="multiImageCarousel" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
+    <!-- SIDEBAR SECTION START -->
+    <div class="ul-sidebar">
+        <!-- header -->
+        <div class="ul-sidebar-header">
+            <div class="ul-sidebar-header-logo">
+                <a href="index-2.html" class="d-inline-block text-decoration-none">
+        <h1 style="font-family: 'Georgia', serif; font-size: 28px; font-weight: bold; color: #222; margin: 0;">
+          ShivKaliBodh
+        </h1>
+      </a>
+            </div>
+            
 
-      <!-- Slide 1 -->
-      <div class="carousel-item active">
-        <div class="container">
-          <div class="row g-3">
-            <div class="col-md-4">
-              <img src="images/liberation.jpg" class="d-block w-100 rounded shadow" alt="Image 1">
-              <p class="mt-2">Liberation</p>
+            <!-- sidebar closer -->
+            <button class="ul-sidebar-closer"><i class="flaticon-close"></i></button>
+        </div>
+
+        <div class="ul-sidebar-header-nav-wrapper d-block d-lg-none"></div>
+
+
+        <!-- sidebar footer -->
+        <div class="ul-sidebar-footer">
+            <span class="ul-sidebar-footer-title">Follow us</span>
+
+            <div class="ul-sidebar-footer-social">
+                <a href="#"><i class="flaticon-facebook"></i></a>
+                <a href="#"><i class="flaticon-twitter"></i></a>
+                <a href="#"><i class="flaticon-instagram"></i></a>
+                <a href="#"><i class="flaticon-youtube"></i></a>
             </div>
-            <div class="col-md-4">
-              <img src="images/joy.jpg" class="d-block w-100 rounded shadow" alt="Image 2">
-              <p class="mt-2">Joy and Bliss</p>
+        </div>
+    </div>
+    <!-- SIDEBAR SECTION END -->
+
+    <!-- SEARCH MODAL SECTION START -->
+    <div class="ul-search-form-wrapper flex-grow-1 flex-shrink-0">
+        <button class="ul-search-closer"><i class="flaticon-close"></i></button>
+
+        <form action="#" class="ul-search-form">
+            <div class="ul-search-form-right">
+                <input type="search" name="search" id="ul-search" placeholder="Search Here">
+                <button type="submit"><span class="icon"><i class="flaticon-search"></i></span></button>
             </div>
-            <div class="col-md-4">
-              <img src="images/3.jpg" class="d-block w-100 rounded shadow" alt="Image 3">
-              <p class="mt-2">Divine Connection</p>
+        </form>
+    </div>
+    <!-- SEARCH MODAL SECTION END -->
+
+    <!-- HEADER SECTION START -->
+
+     
+    <header class="ul-header">
+        <div class="ul-header-bottom to-be-sticky">
+          
+
+            <div class="ul-header-bottom-wrapper ul-header-container">
+                <div class="logo-container">
+<a href="index-2.html" class="d-inline-block text-decoration-none">
+        <h1 style="font-family: 'Georgia', serif; font-size: 28px; font-weight: bold; color: #222; margin: 0;">
+          ShivKaliBodh
+        </h1>
+      </a>
+                </div>
+                <div class="d-lg-none ms-auto">
+       <button class="btn border-0 bg-transparent" onclick="document.querySelector('.ul-sidebar').classList.add('active')">
+        <i class="flaticon-menu fs-2"></i>
+      </button>
+    </div>
+
+                <!-- header nav -->
+                <div class="ul-header-nav-wrapper">
+                    <div class="to-go-to-sidebar-in-mobile">
+                        <nav class="ul-header-nav ">
+                            <div class="no-sub-menu">
+                                <a href="index.html">Home</a>
+
+                                
+                            </div>
+                            <a href="about.html">About Us</a>
+                            <div class="no-sub-menu">
+                                <a href="kundalini.html">Kundalini</a>
+
+                                
+                            </div>
+
+                            <div class="no-sub-menu">
+                                <a href="enlightenment.html">Enlightenment</a>
+
+                               
+                            </div>
+
+                            <div class="no-sub-menu">
+                                <a href="healing.html">Healing</a>
+
+                                
+                            </div>
+
+                            <div class="no-sub-menu">
+                                <a href="guru.html">Guru</a>
+
+                                
+                            </div>
+                            <a href="testimonials.html">Testimonials</a>
+                        </nav>
+                    </div>
+                </div>
+
+                
             </div>
+        </div>
+    </header>
+    <!-- HEADER SECTION END -->
+
+
+    <main class="overflow-hidden">
+        <!-- BANNER SECTION START -->
+        <section class="ul-banner">
+            <div class="ul-banner-container">
+                <div class="row gy-4 row-cols-lg-2 row-cols-1 align-items-center flex-column-reverse flex-lg-row">
+                    <!-- banner text -->
+                    <div class="col">
+                        <div class="ul-banner-txt">
+                            <div class="wow animate__fadeInUp">
+                                <span class="ul-banner-sub-title ul-section-sub-title">The power of divine love.</span>
+                                <h1 class="ul-banner-title">Welcome to ShivKaliBodh</h1>
+                                <p class="ul-banner-descr">Kundalini Yoga is the most mysterious and empowering aspect of spirituality. Maa Parvati, in Her black form as Maa Kali, resides within us as Maa Kundalini. She is our primordial mother. She is the shakti. Once She awakens, She purifies and energizes our subtle body comprising of the seven chakras, three channels, and ocean of illusion (bhavasagar). She also enhances are aura and protects us completely. She awakens the all-encompassing divine love and godly attributes within us, which soon manifest in our thoughts, behavior and actions. When She pierces our Sahasrara Chakra, She liberates us by establishing our union with the all-pervading divine consciousness. This is our union with God, Enlightenment, Liberation and Salvation. From the day our Maa Kundalini awakens, our lives begin to transform.</p>
+
+<p class="ul-banner-descr">In Shivkalibodh, the devotees are blessed with the awakening of their Kundalini Shakti by the grace of Almighty Aadishakti Maa Kali and Almighty Mahadeva Shiva. When we attain the most evolved state of human consciousness through our union with God, we achieve the state of doubtless blissful Samadhi State, which is the state of remaining in continuous connection with God.  
+</p>
+                                <div class="ul-banner-btns">
+
+                                    
+                                </div>
+                            </div>
+
+                            <img src="assets/img/vector-img.png" alt="Vector" class="ul-banner-txt-vector">
+                        </div>
+                    </div>
+
+                    <!-- img -->
+                    <div class="col align-self-start">
+                        <div class="ul-banner-img ">
+                            <div class="img-wrapper">
+<img src="images/6.jpg" alt="Banner Image" style="display: block; margin-right: 150px;">
+                                <!-- <div class="ul-banner-video-btn">
+                                    <a href=""></a>
+                                </div> -->
+                            </div>
+                            <div class="ul-banner-img-vectors">
+                                <img src="assets/img/banner-img-vector-1.png" alt="vector" class="vector-1 wow animate__fadeInRight">
+                                <img src="assets/img/banner-img-vector-2.png" alt="vector" class="vector-2 wow animate__fadeInDown">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- BANNER SECTION END -->
+
+
+        <!-- ABOUT SECTION START -->
+        <section class="ul-about ul-section-spacing wow animate__fadeInUp">
+            <div class="ul-container">
+                <div class="row row-cols-md-2 row-cols-1 align-items-center gy-4 ul-about-row">
+                    <div class="col">
+                        <div class="ul-about-imgs">
+                            <div class="img-wrapper">
+                                <img src="images/Untitled Project.jpg" alt="Image">
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <!-- txt -->
+                    <div class="col">
+                        <div class="ul-about-txt">
+                           <h5> <span class="ul-section-sub-title ul-section-sub-title--2">About US</span></h5>
+                            <h2 class="ul-section-title"> Learn more about our mission, vision, and the values that guide our journey.</h2>
+                            <p class="ul-section-descr">ShivKaliBodh is a spiritual system to awaken and activate the power of God within us. By following the ShivKaliBodh spiritual processes, the energies of our subtle body purify, enhance and come in balance. Thus, the Aura and Charka healing happens spontaneously in ShivKaliBodh. When our Mother Kundalini pierces our Sahasrara chakra, our union is established with the all-pervading divine consciousness and we experience divine bliss and protection all the time.</p>
+
+                            
+                                
+
+                            <div class="ul-about-bottom">
+                                <a href="about.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Explore More</a>
+
+                                <div class="ul-about-call">
+                                    <div class="icon"><i class="flaticon-telephone-call"></i></div>
+                                    <div class="txt">
+                                        <span class="call-title">Call Any Time</span>
+                                        <a href="tel:+91- 98111 60960">+91- 98111 60960</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- vector -->
+            <div class="ul-about-vectors">
+                <img src="assets/img/about-vector-1.png" alt="vector" class="vector-1">
+            </div>
+        </section>
+        <!-- ABOUT SECTION END -->
+
+
+       <section class="ul-donations ul-section-spacing overflow-hidden">
+  <div class="ul-container">
+    <div class="row align-items-center">
+      <!-- Left text content -->
+      <div class="col-md-6">
+        <div class="ul-section-heading ul-donations-heading">
+          <div class="left">
+              <h5><span class="ul-section-sub-title ul-section-sub-title"> Enlightenment</span></h5>
+            </span>
+            <p>
+              During our journey in SKB, innumerable godly attributes awaken within us spontaneously and we overcome our negative traits. Initially, the primary virtues of the five elements of nature awaken within us. These virtues are selfless giving akin to bhumi tattva (earth element), magnanimity akin to gagan tattva (sky element), speed to our good deeds akin to vayu tattva (wind element), Enlightenment akin to agni tattva  (fire element), and adaptability akin to neer tattva (water element). 
+            </p>
           </div>
         </div>
       </div>
 
-      <!-- Slide 2 -->
-      <div class="carousel-item">
-        <div class="container">
-          <div class="row g-3">
-            <div class="col-md-4">
-              <img src="images/4.jpg" class="d-block w-100 rounded shadow" alt="Image 4">
-              <p class="mt-2">Spiritual Temple</p>
+      <!-- Right image -->
+      <div class="col-md-6 text-center">
+        <img src="images/banner-1.webp" alt="Enlightenment" class="img-fluid rounded-4 shadow" style="max-width: 100%; border-radius: 40px;">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+        <!-- DONTATIONS SECTION END -->
+
+
+        <!-- DONATE SECTION START -->
+        <div class="ul-section-spacing">
+            <div class="ul-container">
+                <div class="ul-donate-form-section">
+                    <div class="row justify-content-between align-items-center">
+                        <!-- donate form -->
+                        <div class="col-lg-6 position-relative">
+                            <div class="ul-donate-form-wrapper">
+                                
+                            </div>
+                            <img src="assets/img/donate-form-vector.svg" alt="vector" class="ul-donate-form-vector">
+                        </div>
+
+                        <!-- donate form  -->
+                        <div class="col-xl-5 col-lg-6">
+                            <div class="ul-donate-form-section-txt">
+                               <h4> <span class="ul-section-sub-title text-white">Healing</span></h4>
+                                <span class="ul-section-title text-white", style="font-size: 1.2rem;">Our subtle body is an amazing creation of God. It consists of the seven chakras, three channels, ocean of illusion, Mother Kundalini and our divine aura. The purification and balancing of energies of our subtle body is the key to our good health, wealth and living blissfully. </span>
+
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-4">
-              <img src="images/5.jpg" class="d-block w-100 rounded shadow" alt="Image 5">
-              <p class="mt-2">Union with Divine</p>
-            </div>
-            <div class="col-md-4">
-              <img src="images/6.jpg" class="d-block w-100 rounded shadow" alt="Image 6">
-              <p class="mt-2">Meditation</p>
-            </div>
-          </div>
         </div>
-      </div>
+        <!-- DONATE SECTION END -->
 
-    </div>
 
-    <!-- Controls -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#multiImageCarousel" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#multiImageCarousel" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    </button>
-  </div>
-</section>
- </header>
+        <!-- STATS SECTION START -->
+        <!-- <div class="ul-stats ul-section-spacing">
+            <div class="ul-container">
+                <div class="ul-stats-wrapper wow animate__fadeInUp">
+                    <div class="row row-cols-md-4 row-cols-sm-3 row-cols-2 row-cols-xxs-1 ul-bs-row justify-content-center">
+                        <div class="col">
+                            <div class="ul-stats-item">
+                                <i class="flaticon-costumer"></i>
+                                <span class="number">260+</span>
+                                <span class="txt">Total Happy Children</span>
+                            </div>
+                        </div> -->
 
-<!-- 🙏 About Section -->
-<section id="about" class="section bg-light">
-  <div class="container">
-    <div class="row align-items-center g-4">
-      <div class="col-md-6">
-        <h2 class="text-center">Welcome to ShivKaliBodh</h2>
-<p>Kundalini Yoga is the most mysterious and empowering aspect of spirituality.
- Maa Parvati, in Her black form as Maa Kali, resides within us as Maa Kundalini. 
- She is our primordial mother. She is the shakti. 
- Once She awakens, She purifies and energizes our subtle body comprising of the seven chakras, three channels, and ocean of illusion (bhavasagar). 
- She also enhances are aura and protects us completely. 
- She awakens the all-encompassing divine love and godly attributes within us, which soon manifest in our thoughts, behavior and actions. 
- When She pierces our Sahasrara Chakra, She liberates us by establishing our union with the all-pervading divine consciousness.
-  This is our union with God, Enlightenment, Liberation and Salvation. 
-  From the day our Maa Kundalini awakens, our lives begin to transform.</p>
-  <p>In Shivkalibodh, the devotees are blessed with the awakening of their Kundalini Shakti by the grace of Almighty Aadishakti Maa Kali and Almighty Mahadeva Shiva.
-   When we attain the most evolved state of human consciousness through our union with God, we achieve the state of doubtless blissful Samadhi State, which is the state of remaining in continuous connection with God.  
-  </p>
+                        <!-- <div class="col">
+                            <div class="ul-stats-item">
+                                <i class="flaticon-team"></i>
+                                <span class="number">110+</span>
+                                <span class="txt">Total Our Volunteer</span>
+                            </div>
+                        </div>
 
-      </div>
-      <div class="col-md-6">
-<img src="images/4.jpg" alt="Spiritual Temple" class="img-fluid rounded shadow about-img">
-      </div>
-    </div>
-  </div>
-</section>
+                        <div class="col">
+                            <div class="ul-stats-item">
+                                <i class="flaticon-package"></i>
+                                <span class="number">190+</span>
+                                <span class="txt">Our Products & Gifts</span>
+                            </div>
+                        </div>
 
-<!-- 🔥 Enlightenment Section -->
-<section class="section bg-cream">
-  <div class="container">
-    <div class="row align-items-center g-4">
-      <div class="col-md-6">
-        <img src="images/7.jpg" alt="Kundalini Energy" class="img-fluid rounded shadow enlightenment-img">
-      </div>
-      <div class="col-md-6">
-        <h2 class="text-center">Enlightenment</h2>
-        <p>During our journey in SKB, innumerable godly attributes awaken within us spontaneously and we overcome our negative traits. 
-        Initially, the primary virtues of the five elements of nature awaken within us. 
-        These virtues are selfless giving akin to bhumi tattva (earth element), magnanimity akin to gagan tattva (sky element), speed to our good deeds akin to vayu tattva (wind element), Enlightenment akin to agni tattva  (fire element), and adaptability akin to neer tattva (water element). 
+                        <div class="col">
+                            <div class="ul-stats-item">
+                                <i class="flaticon-relationship"></i>
+                                <span class="number">560+</span>
+                                <span class="txt">Worldwide Donor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- STATS SECTION END
+ -->
+
+        <!-- EVENTS SECTION START -->
+        <!-- <section class="ul-events ul-section-spacing pt-0">
+            <div class="ul-container">
+                 heading -->
+                <!-- <div class="ul-section-heading align-items-center wow animate__fadeInUp">
+                    <div class="left">
+                        <span class="ul-section-sub-title">Upcoming Events</span>
+                        <h2 class="ul-section-title text-white">Charitics Information Of Event Schedule</h2>
+                    </div>
+                    <a href="events.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Explore More</a>
+                </div>  -->
+
+                <!-- events -->
+                <!-- <div class="ul-events-wrapper">
+                    <div class="row ul-bs-row row-cols-lg-2 row-cols-1">
+                         single event -->
+                        <!-- <div class="col wow animate__fadeInUp">
+                            <div class="ul-event">
+                                <div class="ul-event-img">
+                                    <img src="assets/img/event-img.jpg" alt="Event Image">
+                                    <span class="date">29 <span>July</span></span>
+                                </div>
+                                <div class="ul-event-txt">
+                                    <h3 class="ul-event-title"><a href="event-details.html">Manager Disapproved of the Most Recent Work.</a></h3>
+                                    <p class="ul-event-descr">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernaturaut</p>
+                                    <div class="ul-event-info">
+                                        <span class="ul-event-info-title">Venue</span>
+                                        <p class="ul-event-info-descr">350 5th AveNew York, NY 118 United States</p>
+                                    </div>
+                                    <a href="event-details.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
+                                </div>
+                            </div> -->
+                        <!-- </div> --> 
+
+                        <!-- single event -->
+                        <!-- <div class="col wow animate__fadeInUp">
+                            <div class="ul-event">
+                                <div class="ul-event-img">
+                                    <img src="assets/img/blog-b-1.jpg" alt="Event Image">
+                                    <span class="date">29 <span>July</span></span>
+                                </div>
+                                <div class="ul-event-txt">
+                                    <h3 class="ul-event-title"><a href="event-details.html">Manager Disapproved of the Most Recent Work.</a></h3>
+                                    <p class="ul-event-descr">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernaturaut</p>
+                                    <div class="ul-event-info">
+                                        <span class="ul-event-info-title">Venue</span>
+                                        <p class="ul-event-info-descr">350 5th AveNew York, NY 118 United States</p>
+                                    </div>
+                                    <a href="event-details.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- single event -->
+                        <!-- <div class="col wow animate__fadeInUp">
+                            <div class="ul-event">
+                                <div class="ul-event-img">
+                                    <img src="assets/img/blog-2.jpg" alt="Event Image">
+                                    <span class="date">29 <span>July</span></span>
+                                </div>
+                                <div class="ul-event-txt">
+                                    <h3 class="ul-event-title"><a href="event-details.html">Manager Disapproved of the Most Recent Work.</a></h3>
+                                    <p class="ul-event-descr">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernaturaut</p>
+                                    <div class="ul-event-info">
+                                        <span class="ul-event-info-title">Venue</span>
+                                        <p class="ul-event-info-descr">350 5th AveNew York, NY 118 United States</p>
+                                    </div>
+                                    <a href="event-details.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- single event -->
+                        <!-- <div class="col wow animate__fadeInUp">
+                            <div class="ul-event">
+                                <div class="ul-event-img">
+                                    <img src="assets/img/blog-b-3.jpg" alt="Event Image">
+                                    <span class="date">29 <span>July</span></span>
+                                </div>
+                                <div class="ul-event-txt">
+                                    <h3 class="ul-event-title"><a href="event-details.html">Manager Disapproved of the Most Recent Work.</a></h3>
+                                    <p class="ul-event-descr">Dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernaturaut</p>
+                                    <div class="ul-event-info">
+                                        <span class="ul-event-info-title">Venue</span>
+                                        <p class="ul-event-info-descr">350 5th AveNew York, NY 118 United States</p>
+                                    </div>
+                                    <a href="event-details.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Event Details</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div> -->
+            <!-- vectors -->
+            <!-- <div class="ul-events-vectors">
+                <img src="assets/img/events-vector-1.png" alt="Events Image" class="vector-1">
+                <img src="assets/img/events-vector-2.svg" alt="Events Image" class="vector-2">
+            </div>
+        </section> -->
+        <!-- EVENTS SECTION END -->
+
+
+        <!-- WHY JOIN SECTION START -->
+        <section class="ul-why-join ul-section-spacing">
+            <div class="ul-why-join-wrapper ul-section-spacing">
+                <div class="ul-container">
+                    <div class="row row-cols-md-2 row-cols-1 gy-4 align-items-center">
+                        <div class="col">
+                            <div class="ul-why-join-img">
+                                <img src="images/bhaiguru mahesh.jpg" alt="Image">
+                            </div>
+                        </div>
+
+                        <!-- txt -->
+                        <div class="col">
+                            <div class="ul-why-join-txt">
+                                <h5><span class="ul-section-sub-title">Guru Mahesh</span></h5>
+                                <h2 class="ul-section-title">I am not your guru, nor someone higher, Just your companion, On the path less traveled.</h2>
+                                <p class="ul-section-descr">After 25 years of devoted worship, Guru Mahesh attained Enlightenment on 10th April 2017 and he was blessed with shaktipath – the way to awaken the Mother Kundalini of devotees. He is also blessed with the process to purify our energies. He works tirelessly to spiritually empower mankind.</p>
+
+                               
+
+                                    
+
+                                       
+                                    </div>
+
+                                    
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- WHY JOIN SECTION END -->
+
+
+        <!-- TEAM SECTION START -->
+        <section class="ul-team ul-section-spacing pt-0">
+            <div class="ul-container">
+                <!-- Heading -->
+                <div class="ul-section-heading justify-content-between">
+                    <div class="left">
+                        <h5><span class="ul-section-sub-title">Explore More</span></h5>
+                        <h2 class="ul-section-title">Uncover wisdom, words, and devotion.</h2>
+                    </div>
+                    <div>
+                        <a href="team.html" class="ul-btn"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Join With us</a>
+                    </div>
+                </div>
+
+                <div class="row row-cols-md-4 row-cols-sm-3 row-cols-2 row-cols-xxs-1 ul-team-row justify-content-center">
+                    <!-- single member -->
+                    <div class="col">
+                        <div class="ul-team-member">
+                            <div class="ul-team-member-img">
+                                <img src="images/publications.jpg" alt="publications Image">
+                               
+                            </div>
+                            <div class="ul-team-member-info">
+                                <h3 class="ul-team-member-name"><a href="publications.html">Publications</a></h3><hr>
+<p class="ul-team-member-designation">
+  To know the philosophy of SKB and the defined spiritual processes, please read the books written by Guru Mahesh 
+  <a href="https://shivkalibodh.in/resources-publications/" class="text-decoration-underline text-dark">listed here</a>.
+</p>
 
 </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- single member -->
+                    <div class="col">
+                        <div class="ul-team-member">
+                            <div class="ul-team-member-img">
+                                <img src="images/blog post.jpg" alt="Team Member Image">
+                                
+                            </div>
+                            <div class="ul-team-member-info">
+                                <h3 class="ul-team-member-name"><a href="blog-posts.html">Blog Posts</a></h3><hr>
+                                <p class="ul-team-member-designation">Guru Mahesh shares his experiences as a family person, a seeker, a devotee and a mentor in the blogs
+                                      <a href="https://shivkalibodh.in/blog/" class="text-decoration-underline text-dark">listed here</a>.
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- single member -->
+                    <div class="col">
+                        <div class="ul-team-member">
+                            <div class="ul-team-member-img">
+                                <img src="images/bhajan.jpg" alt="Team Member Image">
+                                
+                            </div>
+                            <div class="ul-team-member-info">
+                                <h3 class="ul-team-member-name"><a href="https://shivkalibodh.in/bhanjan/">Bhajans</a></h3><hr>
+                                <p class="ul-team-member-designation">Guru Mahesh loves to write bhajans in praise of God. Meditate while listening to these bhajans on our 
+                                <a href="https://www.youtube.com/channel/UC59DLgFiKwvVlMuGyGHFYQw" class="text-decoration-underline text-dark">youtube channel</a>.
+
+
+</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- single member -->
+                    <div class="col">
+                        <div class="ul-team-member">
+                            <div class="ul-team-member-img">
+                                <img src="images/discourses.jpg" alt="Team Member Image">
+                                
+                            </div>
+                            <div class="ul-team-member-info">
+                                <h3 class="ul-team-member-name"><a href="https://shivkalibodh.in/discources/">Discourses</a></h3><hr>
+                                <p class="ul-team-member-designation">Guru Mahesh explains the divine truth in his various discourses. You can listen his spiritual discourses on our 
+                                     <a href="https://www.youtube.com/channel/UC59DLgFiKwvVlMuGyGHFYQw" class="text-decoration-underline text-dark">youtube channel</a>.
+
+
+</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- TEAM SECTION END -->
+
+
+       <section class="testimonial-section">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h5 class="ul-section-sub-title">Testimonials</h5>
+        <h2 class="ul-section-title">What They Are Talking About Us</h2>
+      </div>
+
+      <div class="swiper ul-testimonial-slider">
+        <div class="swiper-wrapper">
+
+          <!-- Slide 1 -->
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="ul-review-rating">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              </div>
+<p class="ul-review-descr">
+  I am from Meerut and did my schooling from there. I had always been a very studious student. I loved to write and participated in debates and declamation contests in school. Then I did my LLB and began my professional career...
+  <a href="testimonials.html" class="ul-read-more-link">Read more</a>
+</p>
+              <div class="d-flex align-items-center mt-3">
+                <div>
+                  <h6 class="mb-0">Nipun Chandershekhar</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="ul-review-rating">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              </div>
+<p class="ul-review-descr">
+I got a new lease of life since I came to ShivKaliBodh. The god of death, Yamaraja had put my name in his list in the year 2017. I had been keeping unwell for a very long time, but I did not know the reason. In December 2017....  <a href="testimonials.html" class="ul-read-more-link">Read more</a>
+</p>
+              <div class="d-flex align-items-center mt-3">
+                <div>
+                  <h6 class="mb-0">Maya Rajput</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+           <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="ul-review-rating">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              </div>
+<p class="ul-review-descr">
+These days many people talk about spirituality. However, many of them have not understood the truth completely. Thus, they give superficial knowledge only. However, in ShivKaliBodh,the spiritual knowledge imparted  ...  <a href="testimonials.html" class="ul-read-more-link">Read more</a>
+</p>
+              <div class="d-flex align-items-center mt-3">
+                <div>
+                  <h6 class="mb-0">Vijay Bhasin</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+           <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="ul-review-rating">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              </div>
+<p class="ul-review-descr">
+Till September 2018, I was an atheist. After coming to ShivKaliBodh, when I leant the spiritual processes and started practicing them, I felt the surge of positive energy within me and observed many positive ......  <a href="testimonials.html" class="ul-read-more-link">Read more</a>
+</p>
+              <div class="d-flex align-items-center mt-3">
+                <div>
+                  <h6 class="mb-0">Poonam Sharma</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 5 -->
+           <div class="swiper-slide">
+            <div class="testimonial-card">
+              <div class="ul-review-rating">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-half"></i>
+              </div>
+<p class="ul-review-descr">
+
+I am from Bhopal. I graduated in law from Symbiosis Law School, Noida. Presently, I am doing LLM from DNLU, Jabalpur. I joined ISKON many years back where I learnt devotion (bhakti). I also learnt the Shastras in.......  <a href="testimonials.html" class="ul-read-more-link">Read more</a>
+</p>
+              <div class="d-flex align-items-center mt-3">
+                <div>
+                  <h6 class="mb-0">Aman Khare</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+
+        <!-- Pagination & Arrows -->
+        <div class="ul-testimonial-slider-pagination swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- 🧘 Guru + Healing Combined Section -->
-<section class="section bg-light">
-  <div class="container">
-    <div class="row align-items-center g-4">
-      <!-- Guru Column -->
-      <div class="col-md-6">
-        <h2>Guru Mahesh</h2>
-        <p>After 25 years of devoted worship, Guru Mahesh attained Enlightenment on 10th April 2017 and he was blessed with shaktipath – the way to awaken the Mother Kundalini of devotees. He is also blessed with the process to purify our energies. He works tirelessly to spiritually empower mankind.</p>
-        <img src="images/bhaiguru mahesh.jpg" alt="Guru Mahesh Image" class="img-fluid rounded shadow mt-3 guru-img">
-      </div>
-      <!-- Healing Column -->
-      <div class="col-md-6">
-        <h2>Healing</h2>
-        <p>Our subtle body is an amazing creation of God. It consists of the seven chakras, three channels, ocean of illusion, Mother Kundalini and our divine aura. The purification and balancing of energies of our subtle body is the key to our good health, wealth and living blissfully. </p>
-        <img src="images/healing.jpg" alt="Healing Energy" class="img-fluid rounded shadow mt-3 healing-img">
-      </div>
-    </div>
-  </div>
-</section>
-<!-- 📚 Mini Section Row: Publications, Blogs, Bhajans, Discourses -->
-<section class="section bg-light">
-  <div class="container">
-    <h2 class="text-center mb-5">Explore More</h2>
-    <div class="row g-4 text-center">
-
-      <!--  Publications -->
-<!-- 📘 Publications -->
-<div class="col-md-3 col-sm-6">
-  <div class="card h-100 border-0 shadow-sm">
-    <img src="images/publications.jpg" class="card-img-top" alt="Publications">
-    <div class="card-body">
-      <h5 class="card-title"> Publications</h5>
-      <p class="card-text">
-        To know the philosophy of SKB and the defined spiritual processes,<br>
-        please read the books written by Guru Mahesh.
-      </p>
-      <a href="https://shivkalibodh.in/resources-publications/" target="_blank" class="btn btn-outline-secondary btn-sm mt-2">
-         View Publications
-      </a>
-    </div>
-  </div>
-</div>
+  </section>
+  <!-- TESTIMONIAL SECTION END -->
 
 
+        <!-- BLOG SECTION START -->
+        <!-- <section class="ul-blogs ul-section-spacing">
+            <div class="ul-blogs-container wow animate__fadeInUp">
+                <div class="row gy-3">
+                     section heading -->
+                    <!-- <div class="col-sm-5">
+                        <div class="ul-section-heading">
+                            <div class="left">
+                                <span class="ul-section-sub-title"> Latest Blog </span>
+                                <h2 class="ul-section-title">Read Our Latest News</h2>
+                                <p class="ul-section-descr">We help companies develop powerful corporate social responsibility, grantmaking, and employee engagement strategies.</p>
+                                <div class="ul-blogs-slider-nav ul-slider-nav">
+                                    <button class="prev"><i class="flaticon-back"></i></button>
+                                    <button class="next"><i class="flaticon-next"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
 
-    <!-- ✍️ Blog Posts -->
-<div class="col-md-3 col-sm-6">
-  <div class="card h-100 border-0 shadow-sm">
-    <img src="images/blog post.jpg" class="card-img-top" alt="Blog Posts">
-    <div class="card-body d-flex flex-column justify-content-between">
-      <div>
-        <h5 class="card-title text-center"> Blog Posts</h5>
-        <p class="card-text text-center">
-Guru Mahesh shares his experiences as a family person, a seeker, a devotee and a mentor in the blogs. </p>
-      </div>
-      <div class="text-center mt-3">
-        <a href="https://shivkalibodh.in/blog/" target="_blank" class="btn btn-outline-secondary btn-sm">
-           Read Blog
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+                    <!-- blog slider -->
+                    <!-- <div class="col-sm-7">
+                        <div class="ul-blogs-slider swiper">
+                            <div class="swiper-wrapper">
+                                <!-- single blog -->
+                                <!-- <div class="swiper-slide">
+                                    <div class="ul-blog">
+                                        <div class="ul-blog-img"><img src="assets/img/blog-1.jpg" alt="Blog Image">
+                                            <div class="date">
+                                                <span class="number">15</span>
+                                                <span class="txt">Dec</span>
+                                            </div>
+                                        </div>
+                                        <div class="ul-blog-txt">
+                                            <div class="ul-blog-infos">
+                                                <!-- single info -->
+                                                <!-- <div class="ul-blog-info">
+                                                    <span class="icon"><i class="flaticon-account"></i></span>
+                                                    <span class="text font-normal text-[14px] text-etGray">By Admin</span>
+                                                </div> -->
+                                                <!-- single info -->
+                                                <!-- <div class="ul-blog-info">
+                                                    <span class="icon"><i class="flaticon-price-tag"></i></span>
+                                                    <span class="text font-normal text-[14px] text-etGray">Donation</span>
+                                                </div> -->
+                                            <!-- </div>
+                                            <a href="blog-details.html" class="ul-blog-title">Give Education, It’s The Best Gift Ever.</a>
+                                            <a href="blog-details.html" class="ul-blog-btn">Read More <span class="icon"><i class="flaticon-next"></i></span></a>
+                                        </div>
+                                    </div>
+                                </div> --> 
+
+                                <!-- single blog -->
+                                <!-- <div class="swiper-slide">
+                                    <div class="ul-blog">
+                                        <div class="ul-blog-img"><img src="assets/img/blog-2.jpg" alt="Blog Image">
+                                            <div class="date">
+                                                <span class="number">15</span>
+                                                <span class="txt">Dec</span>
+                                            </div>
+                                        </div>
+                                        <div class="ul-blog-txt">
+                                            <div class="ul-blog-infos"> -->
+                                                <!-- single info -->
+                                                <!-- <div class="ul-blog-info">
+                                                    <span class="icon"><i class="flaticon-account"></i></span>
+                                                    <span class="text font-normal text-[14px] text-etGray">By Admin</span>
+                                                </div> -->
+                                                <!-- single info -->
+                                                <!-- <div class="ul-blog-info">
+                                                    <span class="icon"><i class="flaticon-price-tag"></i></span>
+                                                    <span class="text font-normal text-[14px] text-etGray">Donation</span>
+                                                </div>
+                                            </div>
+                                            <a href="blog-details.html" class="ul-blog-title">Don’t treat oceans as universal garbage cans</a>
+                                            <a href="blog-details.html" class="ul-blog-btn">Read More <span class="icon"><i class="flaticon-next"></i></span></a>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+                                <!-- single blog -->
+                                <!-- <div class="swiper-slide">
+                                    <div class="ul-blog">
+                                        <div class="ul-blog-img"><img src="assets/img/blog-3.jpg" alt="Blog Image">
+                                            <div class="date">
+                                                <span class="number">15</span>
+                                                <span class="txt">Dec</span>
+                                            </div>
+                                        </div>
+                                        <div class="ul-blog-txt">
+                                            <div class="ul-blog-infos"> -->
+                                                <!-- single info -->
+                                                <!-- <div class="ul-blog-info">
+                                                    <span class="icon"><i class="flaticon-account"></i></span>
+                                                    <span class="text font-normal text-[14px] text-etGray">By Admin</span>
+                                                </div> -->
+                                                <!-- single info -->
+                                                <!-- <div class="ul-blog-info">
+                                                    <span class="icon"><i class="flaticon-price-tag"></i></span>
+                                                    <span class="text font-normal text-[14px] text-etGray">Donation</span>
+                                                </div>
+                                            </div>
+                                            <a href="blog-details.html" class="ul-blog-title">The sun and the sand makes beaches beautiful</a>
+                                            <a href="blog-details.html" class="ul-blog-btn">Read More <span class="icon"><i class="flaticon-next"></i></span></a>
+                                        </div>
+                                    </div>
+                                </div> -->
+
+                                <!-- single blog -->
+                                <!-- <div class="swiper-slide">
+                                    <div class="ul-blog">
+                                        <div class="ul-blog-img"><img src="assets/img/blog-1.jpg" alt="Blog Image">
+                                            <div class="date">
+                                                <span class="number">15</span>
+                                                <span class="txt">Dec</span>
+                                            </div>
+                                        </div>
+                                        <div class="ul-blog-txt">
+                                            <div class="ul-blog-infos"> -->
+                                                <!-- single info -->
+                                                <!-- <div class="ul-blog-info">
+                                                    <span class="icon"><i class="flaticon-account"></i></span>
+                                                    <span class="text font-normal text-[14px] text-etGray">By Admin</span>
+                                                </div> -->
+                                                <!-- single info -->
+                                                <!-- <div class="ul-blog-info">
+                                                    <span class="icon"><i class="flaticon-price-tag"></i></span>
+                                                    <span class="text font-normal text-[14px] text-etGray">Donation</span>
+                                                </div>
+                                            </div>
+                                            <a href="blog-details.html" class="ul-blog-title">The sun and the sand makes beaches beautiful</a>
+                                            <a href="blog-details.html" class="ul-blog-btn">Read More <span class="icon"><i class="flaticon-next"></i></span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+                        <!-- </div>
+                    </div>
+                </div>
+            </div> -->
+        <!-- </section>  -->
+        <!-- BLOG SECTION END -->
 
 
-
-     <!-- 🎶 Bhajans -->
-<div class="col-md-3 col-sm-6">
-  <div class="card h-100 border-0 shadow-sm">
-    <img src="images/bhajan.jpg" class="card-img-top" alt="Bhajans">
-    <div class="card-body d-flex flex-column justify-content-between">
-      <div>
-        <h5 class="card-title text-center"> Bhajans</h5>
-        <p class="card-text text-center">
-Guru Mahesh loves to write bhajans in praise of God. Meditate while listening to these bhajans on our YouTube channel. 
-
-        </p>
-      </div>
-      <div class="text-center mt-3">
-        <a href="https://www.youtube.com/channel/UC59DLgFiKwvVlMuGyGHFYQw?app=desktop" target="_blank" class="btn btn-outline-secondary btn-sm">
-       Watch Bhajans
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+    </main>
 
 
-      <!-- 🎤 Discourses -->
-<div class="col-md-3 col-sm-6">
-  <div class="card h-100 border-0 shadow-sm">
-    <img src="images/discourses.jpg" class="card-img-top" alt="Discourses">
-    <div class="card-body d-flex flex-column justify-content-between">
-      <div>
-        <h5 class="card-title text-center">Discourses</h5>
-        <p class="card-text text-center">
-Guru Mahesh explains the divine truth in his various discourses. You can listen his spiritual discourses on our YouTube channel.</p>
-      </div>
-      <div class="text-center mt-3">
-        <a href="https://www.youtube.com/channel/UC59DLgFiKwvVlMuGyGHFYQw?app=desktop" target="_blank" class="btn btn-outline-secondary btn-sm">
-           Watch Discourses
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+    <!-- FOOTER SECTION START -->
+    <footer class="ul-footer">
+        <div class="ul-footer-top">
+            <div class="ul-footer-container">
+                <div class="ul-footer-top-contact-infos">
+                    <!-- single info -->
+                    <div class="ul-footer-top-contact-info">
+                        <!-- icon -->
+                        <div class="ul-footer-top-contact-info-icon">
+                            <div class="ul-footer-top-contact-info-icon-inner">
+                                <i class="flaticon-pin"></i>
+                            </div>
+                        </div>
+                        <!-- txt -->
+                        <div class="ul-footer-top-contact-info-txt">
+                            <span class="ul-footer-top-contact-info-label">Address</span>
+<a href="https://www.google.com/maps?q=P-543,+Sector-21,+Noida,+Gautam Budh Nagar,+Uttar+Pradesh,+India-201301" 
+   target="_blank" 
+   class="ul-footer-top-contact-info-address d-block text-white text-decoration-none">
+  P-543, Sector-21, Noida,<br>
+  Gautam Budh Nagar,<br>
+  Uttar Pradesh, India - 201301
+</a>
 
-</section>
+                        </div>
+                    </div>
 
+                    <!-- single info -->
+                    <div class="ul-footer-top-contact-info">
+                        <!-- icon -->
+                        <div class="ul-footer-top-contact-info-icon">
+                            <div class="ul-footer-top-contact-info-icon-inner">
+                                <i class="flaticon-email"></i>
+                            </div>
+                        </div>
+                        <!-- txt -->
+                        <div class="ul-footer-top-contact-info-txt">
+                            <span class="ul-footer-top-contact-info-label">Send Email</span>
+                            <h5 class="ul-footer-top-contact-info-address"><a href="mailto:info@shivkalibodh.in">info@shivkalibodh.in</a></h5>
+                        </div>
+                    </div>
 
+                    <!-- single info -->
+                    <div class="ul-footer-top-contact-info">
+                        <!-- icon -->
+                        <div class="ul-footer-top-contact-info-icon">
+                            <div class="ul-footer-top-contact-info-icon-inner">
+                                <i class="flaticon-telephone-call-1"></i>
+                            </div>
+                        </div>
+                        <!-- txt -->
+                        <div class="ul-footer-top-contact-info-txt">
+                            <span class="ul-footer-top-contact-info-label">Call Us</span>
+                            <h5 class="ul-footer-top-contact-info-address"><a href="tel:+91- 98111 60960">+91- 98111 60960</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="ul-footer-middle">
+            <div class="ul-footer-container">
+                <div class="ul-footer-middle-wrapper wow animate__fadeInUp">
+                    <div class="ul-footer-about">
+<a href="index.html" class="text-decoration-none">
+  <h5><span class="ul-section-sub-title text-white">Shivkalibodh</span></h5>
+</a>
+                        <div class="ul-footer-socials">
+                            <a href="https://www.facebook.com/ShivKaliBodh/"><i class="flaticon-facebook"></i></a>
+                            <a href="https://x.com/shivkalibodh"><i class="flaticon-twitter"></i></a>
+                            <a href=" https://www.instagram.com/shivkalibodh/"><i class="flaticon-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UC59DLgFiKwvVlMuGyGHFYQw"><i class="flaticon-youtube"></i></a>
+                        </div>
+                    </div>
 
-<!-- 📞 Updated Footer -->
-<footer class="bg-dark text-white text-center p-4 mt-5">
-  <p>
-    <strong>ShivKali Ashram</strong><br>
-    P-543, Sector-21, Noida,<br>
-    Gautam Budh Nagar,<br>
-    Uttar Pradesh, India - 201301<br>
-    +91-98111 60960<br>
-    info@shivkalibodh.in
-  </p>
-  <p class="mt-3">Connect with us</p>
-  <p class="mt-3 mb-0">&copy; 2018 ShivKaliBodh Foundation. All Rights Reserved.</p>
-</footer>
+                    <div class="ul-footer-widget">
+                        <h3 class="ul-footer-widget-title">Quick Links</h3>
 
+                        <div class="ul-footer-widget-links">
+                            <a href="about.html">About Us</a>
+                            <a href="enlightenment.html">Enlightenment</a>
+                            <a href="guru.html">Guru</a>
+                            <a href="healing.html">Healing</a>
+                            <a href="kundalini.html">Kundalini</a>
+                            <a href="testimonials.html">Testimonials</a>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-<script src="js/script.js"></script>
+                        </div>
+                    </div>
+
+                   
+
+                    <div class="ul-footer-widget ul-nwsltr-widget">
+                        <h3 class="ul-footer-widget-title">Contact Us</h3>
+                        <div class="ul-footer-widget-links ul-footer-contact-links">
+                            <a href="mailto:info@shivkalibodh.in">
+  <i class="flaticon-mail me-1"></i> info@shivkalibodh.in
+</a>
+
+<a href="tel:+91-9811160960">
+  <i class="flaticon-telephone-call me-1"></i> +91-98111 60960
+</a>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer bottom -->
+        <div class="ul-footer-bottom">
+            <div class="ul-footer-container">
+                <div class="ul-footer-bottom-wrapper">
+                    <p class="copyright-txt">&copy;
+                        <span id="footer-copyright-year"></span> 2018 ShivKaliBodh Foundation. All Rights Reserved
+                    </p>
+                    
+            </div>
+        </div>
+
+        <!-- vector -->
+        <div class="ul-footer-vectors">
+            <img src="assets/img/footer-vector-img.png" alt="Footer Image" class="ul-footer-vector-1">
+        </div>
+    </footer>
+    <!-- FOOTER SECTION END -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <!-- Bootstrap Icons (for star icons) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <script>
+    new Swiper(".ul-testimonial-slider", {
+      loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      simulateTouch: true,
+      touchRatio: 1,
+      spaceBetween: 20,
+      slidesPerView: 1,
+      pagination: {
+        el: ".ul-testimonial-slider-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        768: {
+          slidesPerView: 2,
+        },
+        992: {
+          slidesPerView: 3,
+        },
+        1200: {
+          slidesPerView: 4,
+        }
+      }
+    });
+  </script>
+
+    <!-- libraries JS -->
+    <script src="assets/vendor/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/splide/splide.min.js"></script>
+    <script src="assets/vendor/splide/splide-extension-auto-scroll.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/slim-select/slimselect.min.js"></script>
+    <script src="assets/vendor/animate-wow/wow.min.js"></script>
+    <script src="assets/vendor/splittype/index.min.js"></script>
+    <script src="assets/vendor/mixitup/mixitup.min.js"></script>
+    <script src="assets/vendor/fslightbox/fslightbox.js"></script>
+    <script src="assets/vendor/flatpickr/flatpickr.js"></script>
+
+    <!-- custom JS -->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/tab.js"></script>
+    <script src="assets/js/accordion.js"></script>
+    <script src="assets/js/progressbar.js"></script>
+    <script src="assets/js/donate-form.js"></script>
+    <!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
 
 </body>
+
+<!-- { © 2025 Krishna Raj | GitHub: https://github.com/krishna-raz } -->
 </html>

@@ -454,3 +454,173 @@ section h3 {
   object-fit: cover;
   object-position: center; /* 👈 FOCUS MORE ON BOTTOM */
 }
+
+
+
+
+
+  /* 🧿 Section Headings */
+.section h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #1e1e1e;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  position: relative;
+}
+
+.section h2::after {
+  content: "";
+  width: 60px;
+  height: 3px;
+  background-color: #f5d742;
+  display: block;
+  margin: 10px auto 0;
+  border-radius: 5px;
+}
+
+/* 🌸 Section Text Styling */
+.section p {
+  font-size: 1.05rem;
+  color: #444;
+  line-height: 1.8;
+}
+
+/* 💫 Section Backgrounds */
+.bg-light {
+  background-color: #fdfdfd;
+}
+.bg-cream {
+  background-color: #fff7e6;
+}
+
+/* 🌟 Card Style */
+.card {
+  border-radius: 15px;
+  transition: all 0.4s ease;
+}
+.card:hover {
+  transform: translateY(-8px) scale(1.01);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* 🧿 Button Styling */
+.btn-outline-secondary {
+  border-color: #f5d742;
+  color: #333;
+}
+.btn-outline-secondary:hover {
+  background-color: #f5d742;
+  color: #111;
+}
+
+/* ✨ Fade-in Animations */
+@keyframes fadeInUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.section .row {
+  animation: fadeInUp 1.2s ease-in-out;
+}
+
+/* 🌐 Custom Scrollbar */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+body::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+body::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}
+
+
+
+.wave-svg {
+  position: relative;
+  bottom: -2px;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+.bg-cream {
+  background-color: #fef9f5;
+}
+.hero-header {
+  position: relative;
+  text-align: center;
+  color: white;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(18, 15, 39, 0.55);
+  z-index: 1;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.navbar-nav .nav-link:hover {
+  color: #ffc107 !important; /* Bootstrap yellow */
+}
+html {
+  scroll-behavior: smooth;
+}
+.section {
+  padding: 80px 0;
+}
+.btn-outline-secondary:hover {
+  background-color: #ffc107;
+  color: #000;
+  border-color: #ffc107;
+  transition: 0.3s;
+}
+footer {
+  background-color: #121212;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
