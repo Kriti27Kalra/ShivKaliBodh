@@ -2163,7 +2163,7 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-background: url(../images/healing1.jpg) no-repeat center center/cover;
+background: url(../img/healing1.jpg) no-repeat center center/cover;
   opacity: 70%;
   z-index: -1;
   border-radius: 0 20px 20px 0;
