@@ -92,7 +92,6 @@ a {
   display: inline-block;
   color: var(--black);
 }
-
 a:hover {
   color: var(--ul-primary);
 }
@@ -432,13 +431,11 @@ button {
   letter-spacing: -0.04em;
   font-family: var(--font-quicksand);
 }
-
-
 .ul-section-descr {
-  font-size: 16px; /* You can increase this value */
-  line-height: 1.8;   /* Optional: improves readability */
+  font-size: clamp(13px, 0.84vw, 16px);
+  margin-bottom: 0;
+  color: var(--ul-p);
 }
-
 
 .ul-breadcrumb {
   background: url(../img/breadcrumb-bg.jpg) no-repeat center center;
@@ -841,7 +838,6 @@ button {
   top: 50%;
   transform: translateY(-50%);
 }
-
 .ul-progress-label {
   position: absolute;
   transform: translate(6px, -25px);
@@ -1924,29 +1920,18 @@ button {
 .ul-donations {
   background: url(../img/donations-bg.png) no-repeat center center/cover;
   position: relative;
-  overflow: hidden; 
   z-index: 1;
 }
-.ul-donations::before {
+.ul-donations::before, .ul-donations::after {
   content: "";
   position: absolute;
   z-index: -1;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 0;
-  width: clamp(300px, 55vw, 900px); /* slightly larger */
-  height: clamp(300px, 55vh, 550px); /* slightly larger */
-  border-radius: 100px 0 0 100px; /* soft left curve */
+  inset: 0;
+  left: auto;
+  border-radius: 999px 0 0 999px;
+  background: url(../img/donations-bg-img.jpg) no-repeat center center/cover;
+  width: clamp(0px, 46.56vw, 886px);
 }
-
-@media screen and (max-width: 768px) {
-  .ul-donations::before {
-    width: 100%;
-    height: 250px;
-    border-radius: 50px;
-  }
-}
-
 @media screen and (max-width: 991px) {
   .ul-donations::before, .ul-donations::after {
     top: 20%;
@@ -1957,35 +1942,25 @@ button {
     top: 35%;
   }
 }
-/* .ul-donations::after {
+.ul-donations::after {
   background: var(--ul-black);
   opacity: 85%;
-} */
+}
 .ul-donations-heading .left {
   max-width: 660px;
   text-align: left;
 }
-
-.ul-donations-heading .left p {
-  font-size: 16px;
-  line-height: 1.6;
-  margin-top: 15px;
-  color: #333;
-}
-
 @media screen and (max-width: 991px) {
   .ul-donations-heading {
     flex-direction: column;
     align-items: flex-start;
   }
 }
-
 @media screen and (max-width: 767px) {
   .ul-donations-heading .ul-banner-stat .txt {
     color: var(--ul-black) !important;
   }
 }
-
 .ul-donations-slider-nav {
   position: static;
   width: auto;
@@ -2163,17 +2138,11 @@ button {
   content: "";
   position: absolute;
   inset: 0;
-background: url(../img/healing1.jpg) no-repeat center center/cover;
-  opacity: 70%;
+  background: url(../img/donate-form-bg.jpg) no-repeat center center/cover;
+  opacity: 40%;
   z-index: -1;
   border-radius: 0 20px 20px 0;
 }
-.ul-donate-form-wrapper {
-  position: relative;
-  min-height: 300px; /* Increase or adjust as needed */
-  padding: 2rem; /* optional: for spacing inside */
-}
-
 @media screen and (max-width: 991px) {
   .ul-donate-form-wrapper::before {
     border-radius: 20px;
@@ -2497,7 +2466,6 @@ background: url(../img/healing1.jpg) no-repeat center center/cover;
 }
 .ul-why-join-txt .ul-section-title {
   margin-bottom: clamp(13px, 1.21vw, 23px);
-  
 }
 .ul-why-join-txt .ul-section-descr {
   color: var(--ul-p);
@@ -3623,7 +3591,8 @@ background: url(../img/healing1.jpg) no-repeat center center/cover;
   font-size: clamp(9px, 0.63vw, 12px);
 }
 
-.ul-donate-form-wrapper-2 {
+
+  .ul-donate-form-wrapper-2 {
   background-image: url(../img/banner-1.webp);
   background-size: cover;
   background-repeat: no-repeat;
@@ -3635,7 +3604,6 @@ background: url(../img/healing1.jpg) no-repeat center center/cover;
   align-items: center;
   justify-content: center;
 }
-
 .ul-volunteer-block {
   height: 100%;
   padding: 30px;
@@ -3647,12 +3615,9 @@ background: url(../img/healing1.jpg) no-repeat center center/cover;
   box-sizing: border-box;
 }
 
-
-
-
 .ul-donate-form-wrapper-2::before {
   background-color: var(--ul-black);
-  opacity: 10%;
+  opacity: 40%;
 }
 
 .ul-donate-form-2 label {
@@ -5085,93 +5050,3 @@ background: url(../img/healing1.jpg) no-repeat center center/cover;
   background-color: var(--ul-primary);
   color: var(--white);
 }/*# sourceMappingURL=style.css.map */
-
-.ul-sidebar {
-  display: none;  /* hidden by default */
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 250px;
-  background: #fff;
-  z-index: 999;
-  overflow-y: auto;
-  transition: all 0.3s ease;
-}
-
-.ul-sidebar.active {
-  display: block;
-}
-
-
-    body {
-      background: #f8f9fa;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    .testimonial-section {
-      padding: 60px 20px;
-      background-color: antiquewhite;
-    }
-
-    .testimonial-card {
-      background: #fff;
-      border-radius: 16px;
-      padding: 20px;
-      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-      height: 100%;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      transition: transform 0.3s ease;
-    }
-
-    .testimonial-card:hover {
-      transform: translateY(-5px);
-    }
-
-    .ul-review-rating i {
-      color: #FFD700;
-      margin-right: 2px;
-    }
-
-    .ul-review-descr {
-      font-style: italic;
-      margin: 15px 0;
-      color: #555;
-    }
-
-    .swiper {
-      padding-bottom: 50px;
-    }
-
-    .swiper-button-prev,
-    .swiper-button-next {
-      color: #e85c11;
-    }
-
-    .swiper-pagination-bullet-active {
-      background: #007bff;
-    }
-
-    .reviewer-image {
-      width: 50px;
-      height: 50px;
-      border-radius: 50%;
-      object-fit: cover;
-      margin-right: 12px;
-    }
-
-    .reviewer-role {
-      font-size: 0.875rem;
-      color: #777;
-    }
-.ul-read-more-link {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.ul-read-more-link:hover {
-  text-decoration: underline;
-}
