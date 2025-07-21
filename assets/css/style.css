@@ -5050,3 +5050,103 @@ button {
   background-color: var(--ul-primary);
   color: var(--white);
 }/*# sourceMappingURL=style.css.map */
+
+
+.testimonial-section {
+  background-color: #fdfaf5;
+  padding: 60px 20px;
+  font-family: 'Georgia', serif;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+.testimonial-box {
+  background-color: #ffffff;
+  border-left: 5px solid #c59d5f;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease;
+}
+
+.testimonial-box:hover {
+  transform: scale(1.02);
+}
+
+.testimonial-text {
+  font-size: 1.1rem;
+  color: #444;
+  line-height: 1.7;
+  margin-bottom: 10px;
+}
+
+.testimonial-author {
+  text-align: right;
+  font-style: italic;
+  color: #777;
+  font-size: 0.95rem;
+}
+
+
+
+
+
+
+
+
+.publications-section {
+  background-color: #f7f5f1;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.section-intro {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.publication-item {
+  background: #fff;
+  border-left: 5px solid #c59d5f;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 5px;
+}
+
+.publication-title {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.publication-item p {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.publication-item ul {
+  padding-left: 20px;
+  color: #444;
+  line-height: 1.6;
+}
+
+
+
+
