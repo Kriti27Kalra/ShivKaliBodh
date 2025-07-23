@@ -128,11 +128,7 @@ Uttar Pradesh, India-201301</span>
                 <div class="ul-header-actions">
                     <a href="about.html" class="ul-btn d-sm-inline-flex d-none"><i class="flaticon-fast-forward-double-right-arrows-symbol"></i> Join With us </a>
                     <button class="ul-header-sidebar-opener d-lg-none d-inline-flex"><i class="flaticon-menu"></i></button>
-                <div
-  id="google_translate_element"
-  class="p-2 rounded"
-  style="margin-left: 15px; background-color: #1e1e1e; color: white; display: inline-block; border: 1px solid #444;"
-></div>
+                <button id="langBtn" onclick="switchLanguage()" class="btn btn-outline-primary">हिन्दी</button>
 
                 
                 </div>
@@ -445,21 +441,36 @@ Uttar Pradesh, India-201301</h5>
     <script src="assets/js/accordion.js"></script>
     <script src="assets/js/progressbar.js"></script>
     <script src="assets/js/donate-form.js"></script>
+    <script>
+  // Change button text and set logic on page load
+  window.addEventListener("DOMContentLoaded", () => {
+    const btn = document.getElementById("langBtn");
+    const path = window.location.pathname;
+    
+    if (path.startsWith("/hindi")) {
+      btn.innerText = "English";
+    } else {
+      btn.innerText = "हिन्दी";
+    }
+  });
 
-    <!-- Google Translate Widget -->
-<div id="google_translate_element"></div>
+  // Function to switch language
+  function switchLanguage() {
+    const currentPath = window.location.pathname;
 
-<script type="text/javascript">
-  function googleTranslateElementInit() {
-    new google.translate.TranslateElement({
-      pageLanguage: 'en', // original page language
-      includedLanguages: 'en,hi', // languages to show
-      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-    }, 'google_translate_element');
+    if (currentPath.startsWith("/hindi")) {
+      // Go to English version
+      const englishPath = currentPath.replace("/hindi", "") || "/index.html";
+      window.location.href = englishPath;
+    } else {
+      // Go to Hindi version
+      const hindiPath = "/hindi" + currentPath;
+      window.location.href = hindiPath;
+    }
   }
 </script>
 
-<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 
 </body>
 
